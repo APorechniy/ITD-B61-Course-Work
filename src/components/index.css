@@ -1,0 +1,84 @@
+body {
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin: 0;
+}
+h2, p, ul, li {
+  font-family: sans-serif;
+}
+h1{
+  font-family: sans-serif;
+  margin-bottom: 9px; /* Отступ снизу */
+}
+h2{
+  margin-top: 19px; /* Отступ снизу */
+  font-family: sans-serif;
+  margin-bottom: 9px; /* Отступ снизу */
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 3.6%;
+  }
+
+  .Main-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+.content {
+  background-color: #F5F5DC;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.card {
+  padding: 0px;
+  position: relative;
+  margin: 2px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.25);
+  border-top: 14px solid #FAEBEB;
+  margin-bottom: 9px; /* Отступ снизу */
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  &:hover {
+    border-top: 6px solid #0080AD;
+    cursor: pointer;
+    transform: translateY(0px);
+  }
+}
+.cardSettings {
+  padding: 0px;
+  position: relative;
+  margin: 0px;
+  box-shadow: 0 6px 3px 0 rgba(0,0,0,0.25);
+  border-top: 14px solid #FAEBEB;
+  margin-bottom: 9px; /* Отступ снизу */
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  &:hover {
+    border-top: 6px solid #0080AD;
+    cursor: pointer;
+    transform: translateY(0px);
+  }
+}
